@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TVSettingsUi.Pages"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             xmlns:local="clr-namespace:TVSettingsUi.Pages">
+    
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Stretch" MaxWidth="800" Margin="50 0">
-            
+        <uc:TimeSetting Title="Enable Wifi" HasToggle="True" IsChecked="True"/>
+        <uc:TimeSetting Title="         Network SDN-1" HasText="True" HasToggle="False" Text="...  "/>
+        <uc:TimeSetting Title="         Network SDN-2" HasText="True" HasToggle="False" Text="...  "/>
+        <uc:TimeSetting Title="         Network SDN-3" HasText="True" HasToggle="False" Text="...  "/>
+        <uc:TimeSetting Title="Enable Hotspot" HasToggle="True"/>
+        <uc:TimeSetting Title="Mac Address"/>
     </StackPanel>
 </UserControl>
