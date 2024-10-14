@@ -18,6 +18,7 @@
                 <TextBlock Text="Country :" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="City :" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="Address :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Developer :" Style="{StaticResource aboutText}"/>
             </StackPanel>
             
             <StackPanel VerticalAlignment="Center" Grid.Column="1" Margin="15 0 0 0">
@@ -27,6 +28,7 @@
                 <TextBlock Text="Iran" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="Tehran" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="Street 1 Line 20" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Amin Mirzaei (aminmirzaeione)" Style="{StaticResource aboutText}"/>
             </StackPanel>
 
         </Grid>
