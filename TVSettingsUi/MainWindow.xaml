@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TVSettingsUi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+Height="720" Width="1280" MinHeight="700" MinWidth="650" AllowsTransparency="True"
+WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent">
     <Grid>
         
     </Grid>
