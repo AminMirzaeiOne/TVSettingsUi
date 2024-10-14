@@ -39,6 +39,11 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
                 <icon:PackIconMaterial Kind="Wifi" Foreground="#FDF9F6" Width="25" Height="25" VerticalAlignment="Center"/>
             </StackPanel>
 
+            <!--Back Button-->
+            <Button Name="backButton" Click="backButton_Click" Style="{StaticResource backButton}">
+                <icon:PackIconMaterial Kind="ArrowLeft" Width="25" Height="25"/>
+            </Button>
+
         </Grid>
 
     </Border>
