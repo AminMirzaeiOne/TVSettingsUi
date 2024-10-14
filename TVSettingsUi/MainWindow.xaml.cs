@@ -20,6 +20,15 @@ namespace TVSettingsUi
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// init all pages just one time 
+        /// </summary>
+        private Pages.SettingPage settingPage = new Pages.SettingPage();
+        private Pages.AboutPage aboutPage = new Pages.AboutPage();
+        private Pages.StoragePage storagePage = new Pages.StoragePage();
+        private Pages.TimePage timePage = new Pages.TimePage();
+        private Pages.NetworkPage networkPage = new Pages.NetworkPage();
+
         public MainWindow()
         {
             InitializeComponent();

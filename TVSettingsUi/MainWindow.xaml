@@ -50,7 +50,7 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
             <!--Page Content-->
             <ContentPresenter x:Name="container" Grid.Row="2">
                 <ContentPresenter.Content>
-                    <page:Setting_Page/>
+                    <page:SettingPage/>
                 </ContentPresenter.Content>
             </ContentPresenter>
 
