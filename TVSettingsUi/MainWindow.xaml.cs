@@ -28,6 +28,7 @@ namespace TVSettingsUi
         private Pages.StoragePage storagePage = new Pages.StoragePage();
         private Pages.TimePage timePage = new Pages.TimePage();
         private Pages.NetworkPage networkPage = new Pages.NetworkPage();
+        private bool IsMaximize = false;
 
         public MainWindow()
         {
