@@ -7,6 +7,15 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Margin="20" x:Name="grid">
-            
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Auto" Padding="0 20" VerticalAlignment="Center" Width="{Binding ElementName=grid,Path=ActualWidth}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                <uc:Element Title="Network Setting" Icon="Wifi" ElementClick="NetworkSetting_ElementClick"/>
+                <uc:Element Title="Time Setting" IsActive="True" Icon="Timelapse" ElementClick="Time_ElementClick"/>
+                <uc:Element Title="Common" Icon="Layers" ElementClick="Storage_ElementClick"/>
+                <uc:Element Title="About Us" Icon="Information" ElementClick="About_ElementClick"/>
+
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>
