@@ -22,6 +22,7 @@ namespace TVSettingsUi.Controls
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Element));
         public static readonly DependencyProperty IsActiveProperty = DependencyProperty.Register("IsActive", typeof(bool), typeof(Element));
+        public static readonly DependencyProperty IconProperty = DependencyProperty.Register("Icon", typeof(PackIconMaterialKind), typeof(Element));
 
 
         public static readonly RoutedEvent ElementClickEvent =
