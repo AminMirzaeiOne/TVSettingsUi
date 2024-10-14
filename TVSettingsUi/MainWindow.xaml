@@ -28,6 +28,17 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+            
+            <!--Status Bar-->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 15 15 0">
+                <TextBlock Text="05:34" Foreground="#FDF9F6" FontSize="28" VerticalAlignment="Center"/>
+                <StackPanel Margin="13 0" VerticalAlignment="Center">
+                    <TextBlock Text="Nov, 17" Foreground="#F8FEFA" FontSize="10"/>
+                    <TextBlock Text="Tuesday" Foreground="#F8FEFA" FontSize="10"/>
+                </StackPanel>
+                <icon:PackIconMaterial Kind="Wifi" Foreground="#FDF9F6" Width="25" Height="25" VerticalAlignment="Center"/>
+            </StackPanel>
+
         </Grid>
 
     </Border>
