@@ -104,6 +104,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\TimePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pages\AboutPage.xaml.cs">
@@ -117,6 +121,9 @@
     </Compile>
     <Compile Include="Pages\StoragePage.xaml.cs">
       <DependentUpon>StoragePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TimePage.xaml.cs">
+      <DependentUpon>TimePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
