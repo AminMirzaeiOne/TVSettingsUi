@@ -27,5 +27,14 @@ namespace TVSettingsUi.Pages
         {
             InitializeComponent();
         }
+
+
+        private void LoadWindow()
+        {
+            if (window == null)
+            {
+                window = Window.GetWindow(App.Current.MainWindow) as MainWindow;
+            }
+        }
     }
 }
