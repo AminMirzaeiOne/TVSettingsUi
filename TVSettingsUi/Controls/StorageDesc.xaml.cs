@@ -30,6 +30,12 @@ namespace TVSettingsUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public Brush Color
+        {
+            get { return (Brush)GetValue(ColorProperty); }
+            set { SetValue(ColorProperty, value); }
+        }
+
         public StorageDesc()
         {
             InitializeComponent();
