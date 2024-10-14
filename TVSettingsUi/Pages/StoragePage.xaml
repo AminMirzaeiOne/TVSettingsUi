@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:TVSettingsUi.Pages"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Border>
+    <Border CornerRadius="5" Padding="20 30" VerticalAlignment="Center" HorizontalAlignment="Stretch" MaxWidth="800" Margin="50 0" MinHeight="400" Background="#374270">
             
     </Border>
 </UserControl>
