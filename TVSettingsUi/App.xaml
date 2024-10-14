@@ -202,5 +202,12 @@
             </LinearGradientBrush.GradientStops>
         </LinearGradientBrush>
 
+        <Style x:Key="aboutText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FBF9F6" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="TextAlignment" Value="Left" />
+            <Setter Property="Margin" Value="0 10" />
+        </Style>
+
     </Application.Resources>
 </Application>
