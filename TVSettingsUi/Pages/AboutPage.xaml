@@ -22,10 +22,10 @@
             
             <StackPanel VerticalAlignment="Center" Grid.Column="1" Margin="15 0 0 0">
                 <TextBlock Text="Snowa" Style="{StaticResource aboutText}"/>
-                <TextBlock Text="2022" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="2019" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="1.2.4" Style="{StaticResource aboutText}"/>
-                <TextBlock Text="Germany" Style="{StaticResource aboutText}"/>
-                <TextBlock Text="Berlin" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Iran" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Tehran" Style="{StaticResource aboutText}"/>
                 <TextBlock Text="Street 1 Line 20" Style="{StaticResource aboutText}"/>
             </StackPanel>
 
