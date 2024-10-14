@@ -12,7 +12,25 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
+
+            <StackPanel>
+                <TextBlock Text="Total Size : 9.6 GB" FontSize="24" Foreground="#ffffff" Margin="20 20 0 40"/>
+
+                <!--Chart-->
+                <lvc:PieChart LegendLocation="None" InnerRadius="110" Height="200" >
+                    <lvc:PieChart.Series>
+                        <lvc:PieSeries Values="845" StrokeThickness="0" Fill="#86C56A"/>
+                        <lvc:PieSeries Values="205" StrokeThickness="0" Fill="#21C1D9"/>
+                        <lvc:PieSeries Values="309" StrokeThickness="0" Fill="#5788EE"/>
+                        <lvc:PieSeries Values="983" StrokeThickness="0" Fill="#F7E68A"/>
+                        <lvc:PieSeries Values="80" StrokeThickness="0" Fill="#FCAA2C"/>
+                        <lvc:PieSeries Values="300" StrokeThickness="0" Fill="#F95F15"/>
+                        <lvc:PieSeries Values="1200" StrokeThickness="0" Fill="#DBDEED"/>
+                    </lvc:PieChart.Series>
+                </lvc:PieChart>
+
+            </StackPanel>
+
         </Grid>
     </Border>
 </UserControl>
