@@ -20,6 +20,9 @@ namespace TVSettingsUi.Controls
     /// </summary>
     public partial class Element : UserControl
     {
+        public static readonly RoutedEvent ElementClickEvent =
+            EventManager.RegisterRoutedEvent("ElementClick", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(Element));
+
         public Element()
         {
             InitializeComponent();
