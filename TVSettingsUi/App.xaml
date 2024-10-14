@@ -38,5 +38,25 @@
             <Setter Property="FontSize" Value="42" />
         </Style>
 
+        <!--#region ScorllBar Style-->
+        <Style x:Key="ScrollBarLineButton" TargetType="{x:Type RepeatButton}">
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="OverridesDefaultStyle" Value="true" />
+            <Setter Property="Focusable" Value="false" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Border x:Name="Border" Margin="1" CornerRadius="2" BorderThickness="1" Background="#374270" BorderBrush="Black">
+                            <Path x:Name="Arrow" HorizontalAlignment="Center" VerticalAlignment="Center" Data="{Binding Content,RelativeSource={RelativeSource TemplatedParent}}" >
+                                <Path.Fill>
+                                    <SolidColorBrush Color="#5F76F6"/>
+                                </Path.Fill>
+                            </Path>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>
