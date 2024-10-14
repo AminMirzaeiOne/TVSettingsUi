@@ -6,6 +6,10 @@
              xmlns:local="clr-namespace:TVSettingsUi.Pages"
              Name="timePage">
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Stretch" MaxWidth="800" Margin="50 0">
-            
+        <uc:TimeSetting Title="Auto Attach" HasToggle="True" IsChecked="True"/>
+        <uc:TimeSetting Title="Time Zone" HasText="True" HasToggle="False" Text="GMT +02:00, Eastern Eu..."/>
+        <uc:TimeSetting Title="Daylight Saving" HasToggle="True"/>
+        <uc:TimeSetting Title="24 Hours" HasToggle="True"/>
+        <uc:TimeSetting Title="More ..."/>
     </StackPanel>
 </UserControl>
