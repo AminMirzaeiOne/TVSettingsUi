@@ -48,6 +48,12 @@ namespace TVSettingsUi.Controls
             set { SetValue(IsActiveProperty, value); }
         }
 
+        public PackIconMaterialKind Icon
+        {
+            get { return (PackIconMaterialKind)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
+        }
+
         public Element()
         {
             InitializeComponent();
