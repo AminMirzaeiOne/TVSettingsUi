@@ -185,5 +185,11 @@
         <Color x:Key="SliderTrackDarkColor">#FFC5CBF9</Color>
         <Color x:Key="NavButtonFrameColor">#FF3843C4</Color>
 
+        <LinearGradientBrush x:Key="MenuPopupBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="{DynamicResource ControlLightColor}" Offset="0" />
+            <GradientStop Color="{DynamicResource ControlMediumColor}" Offset="0.5" />
+            <GradientStop Color="{DynamicResource ControlLightColor}" Offset="1" />
+        </LinearGradientBrush>
+
     </Application.Resources>
 </Application>
