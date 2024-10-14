@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TVSettingsUi"
+        xmlns:page="clr-namespace:TVSettingsUi.Pages"
         mc:Ignorable="d"
         xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
 Height="720" Width="1280" MinHeight="700" MinWidth="650" AllowsTransparency="True"
@@ -28,7 +29,7 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
+
             <!--Status Bar-->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 15 15 0">
                 <TextBlock Text="05:34" Foreground="#FDF9F6" FontSize="28" VerticalAlignment="Center"/>
