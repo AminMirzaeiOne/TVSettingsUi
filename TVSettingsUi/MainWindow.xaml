@@ -23,7 +23,11 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
         </Border.Background>
 
         <Grid>
-            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
         </Grid>
 
     </Border>
