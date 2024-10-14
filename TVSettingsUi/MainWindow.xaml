@@ -13,7 +13,7 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
         <WindowChrome CaptionHeight="0" ResizeBorderThickness="5"/>
     </WindowChrome.WindowChrome>
 
-    <Border>
+    <Border  CornerRadius="5" MouseLeftButtonDown="Grid_MouseLeftButtonDown" MouseDown="Grid_MouseDown">
         
     </Border>
 </Window>
