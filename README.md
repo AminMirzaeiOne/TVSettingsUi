@@ -19,4 +19,5 @@ Designing the settings page of a smart TV in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/e2c7b0aa-b2c9-4e27-b047-20c4c8ce17b0">
 
