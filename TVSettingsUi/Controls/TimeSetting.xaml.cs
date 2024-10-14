@@ -50,6 +50,12 @@ namespace TVSettingsUi.Controls
             set { SetValue(HasTextProperty, value); }
         }
 
+        public string Text
+        {
+            get { return (string)GetValue(TextProperty); }
+            set { SetValue(TextProperty, value); }
+        }
+
         public TimeSetting()
         {
             InitializeComponent();
