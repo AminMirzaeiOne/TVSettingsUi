@@ -36,5 +36,11 @@ namespace TVSettingsUi.Pages
                 window = Window.GetWindow(App.Current.MainWindow) as MainWindow;
             }
         }
+        private void NetworkSetting_ElementClick(object sender, RoutedEventArgs e)
+        {
+            LoadWindow();
+            window.ExecutePage(AppPages.Network);
+        }
+
     }
 }
