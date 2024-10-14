@@ -23,6 +23,12 @@ namespace TVSettingsUi.Controls
         public static readonly RoutedEvent ElementClickEvent =
             EventManager.RegisterRoutedEvent("ElementClick", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(Element));
 
+        public event RoutedEventHandler ElementClick
+        {
+            add { AddHandler(ElementClickEvent, value); }
+            remove { RemoveHandler(ElementClickEvent, value); }
+        }
+
         public Element()
         {
             InitializeComponent();
