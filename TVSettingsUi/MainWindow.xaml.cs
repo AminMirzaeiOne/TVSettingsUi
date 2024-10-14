@@ -18,6 +18,11 @@ namespace TVSettingsUi
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+    public enum AppPages
+    {
+        About, Setting, Storage, Time, Network
+    }
     public partial class MainWindow : Window
     {
         /// <summary>
