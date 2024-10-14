@@ -44,6 +44,12 @@ namespace TVSettingsUi.Controls
             set { SetValue(IsCheckedProperty, value); }
         }
 
+        public bool HasText
+        {
+            get { return (bool)GetValue(HasTextProperty); }
+            set { SetValue(HasTextProperty, value); }
+        }
+
         public TimeSetting()
         {
             InitializeComponent();
