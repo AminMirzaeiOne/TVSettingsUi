@@ -33,6 +33,15 @@
 
             <TextBlock Text="Used : 3.7 GB" FontSize="20" Margin="0 40 0 0" Foreground="#ffffff" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <uc:StorageDesc Title="System : 845 MB" Color="#86C56A"/>
+                <uc:StorageDesc Title="Photo : 205 MB" Color="#21C1D9"/>
+                <uc:StorageDesc Title="Music : 309 MB" Color="#5788EE"/>
+                <uc:StorageDesc Title="Application : 983 MB" Color="#F7E68A"/>
+                <uc:StorageDesc Title="Video : 80 MB" Color="#FCAA2C"/>
+                <uc:StorageDesc Title="Other : 300 MB" Color="#F95F15"/>
+                <uc:StorageDesc Title="Available Size : 250 MB" Color="#DBDEED"/>
+            </StackPanel>
 
         </Grid>
     </Border>
