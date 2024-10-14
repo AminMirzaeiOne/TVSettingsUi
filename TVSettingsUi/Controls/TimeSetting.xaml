@@ -9,7 +9,7 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </UserControl.Resources>
 
-    <Border>
+    <Border  CornerRadius="5" Padding="20" Margin="0 5">
             
     </Border>
 </UserControl>
