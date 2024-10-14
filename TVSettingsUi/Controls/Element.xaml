@@ -7,6 +7,15 @@
              mc:Ignorable="d" 
              Name="element">
     <Button  Padding="20" Width="230" Margin="15 0" FocusVisualStyle="{x:Null}" Click="Button_Click">
-            
+
+
+        <StackPanel VerticalAlignment="Center">
+            <icon:PackIconMaterial Kind="{Binding ElementName=element,Path=Icon}" Width="50" Height="50" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+            <TextBlock Text="{Binding ElementName=element,Path=Title}" FontSize="18" FontWeight="SemiBold" 
+               TextAlignment="Center" Margin="0 30 0 0"/>
+        </StackPanel>
+
     </Button>
 </UserControl>
