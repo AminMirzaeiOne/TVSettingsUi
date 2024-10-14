@@ -179,5 +179,11 @@
         <Color x:Key="DisabledBorderDarkColor">#FF888888</Color>
         <Color x:Key="DefaultBorderBrushDarkColor">Black</Color>
 
+        <!--Control-specific resources.-->
+        <Color x:Key="HeaderTopColor">#FFC5CBF9</Color>
+        <Color x:Key="DatagridCurrentCellBorderColor">Black</Color>
+        <Color x:Key="SliderTrackDarkColor">#FFC5CBF9</Color>
+        <Color x:Key="NavButtonFrameColor">#FF3843C4</Color>
+
     </Application.Resources>
 </Application>
