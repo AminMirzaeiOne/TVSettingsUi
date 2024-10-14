@@ -10,6 +10,15 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 15 0">
+                <TextBlock Text="Manufacture :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Produce Year :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Version :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Country :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="City :" Style="{StaticResource aboutText}"/>
+                <TextBlock Text="Address :" Style="{StaticResource aboutText}"/>
+            </StackPanel>
         </Grid>
     </Border>
 </UserControl>
