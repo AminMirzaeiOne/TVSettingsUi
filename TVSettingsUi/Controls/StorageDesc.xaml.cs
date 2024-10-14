@@ -24,6 +24,12 @@ namespace TVSettingsUi.Controls
         public static readonly DependencyProperty ColorProperty = DependencyProperty.Register("Color", typeof(Brush), typeof(StorageDesc));
 
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
+
         public StorageDesc()
         {
             InitializeComponent();
