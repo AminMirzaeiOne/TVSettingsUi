@@ -20,6 +20,9 @@ namespace TVSettingsUi.Controls
     /// </summary>
     public partial class TimeSetting : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(TimeSetting));
+
+
         public TimeSetting()
         {
             InitializeComponent();
