@@ -21,6 +21,7 @@ namespace TVSettingsUi.Controls
     public partial class TimeSetting : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(TimeSetting));
+        public static readonly DependencyProperty HasToggleProperty = DependencyProperty.Register("HasToggle", typeof(bool), typeof(TimeSetting));
 
 
         public TimeSetting()
