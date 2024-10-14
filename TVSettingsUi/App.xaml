@@ -31,5 +31,12 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="pageTitle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#ffffff" />
+            <Setter Property="Grid.Row" Value="1" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="42" />
+        </Style>
+
     </Application.Resources>
 </Application>
