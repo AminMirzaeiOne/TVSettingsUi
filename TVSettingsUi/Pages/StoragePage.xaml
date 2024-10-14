@@ -31,6 +31,9 @@
 
             </StackPanel>
 
+            <TextBlock Text="Used : 3.7 GB" FontSize="20" Margin="0 40 0 0" Foreground="#ffffff" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+
         </Grid>
     </Border>
 </UserControl>
