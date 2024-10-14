@@ -33,5 +33,34 @@ namespace TVSettingsUi
         {
             InitializeComponent();
         }
+        public void ExecutePage(AppPages page)
+        {
+            backButton.Visibility = Visibility.Visible;
+
+            switch (page)
+            {
+                case AppPages.About:
+                    container.Content = aboutPage;
+                    titleText.Text = "About Us";
+                    break;
+                case AppPages.Setting:
+                    container.Content = settingPage;
+                    titleText.Text = "Settings";
+                    break;
+                case AppPages.Storage:
+                    container.Content = storagePage;
+                    titleText.Text = "Storage";
+                    break;
+                case AppPages.Time:
+                    container.Content = timePage;
+                    titleText.Text = "Time Settings";
+                    break;
+                case AppPages.Network:
+                    container.Content = networkPage;
+                    titleText.Text = "Network Settings";
+                    break;
+            }
+        }
+
     }
 }
