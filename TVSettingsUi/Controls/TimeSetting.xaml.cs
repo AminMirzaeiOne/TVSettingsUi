@@ -38,6 +38,12 @@ namespace TVSettingsUi.Controls
             set { SetValue(HasToggleProperty, value); }
         }
 
+        public bool IsChecked
+        {
+            get { return (bool)GetValue(IsCheckedProperty); }
+            set { SetValue(IsCheckedProperty, value); }
+        }
+
         public TimeSetting()
         {
             InitializeComponent();
