@@ -20,6 +20,8 @@ namespace TVSettingsUi.Controls
     /// </summary>
     public partial class StorageDesc : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(StorageDesc));
+
         public StorageDesc()
         {
             InitializeComponent();
