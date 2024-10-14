@@ -44,6 +44,9 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
                 <icon:PackIconMaterial Kind="ArrowLeft" Width="25" Height="25"/>
             </Button>
 
+            <!--Page Title-->
+            <TextBlock x:Name="titleText" Text="Settings" Style="{StaticResource pageTitle}"/>
+
         </Grid>
 
     </Border>
