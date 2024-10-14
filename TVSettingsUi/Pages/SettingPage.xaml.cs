@@ -20,6 +20,9 @@ namespace TVSettingsUi.Pages
     /// </summary>
     public partial class SettingPage : UserControl
     {
+        private MainWindow window;
+
+
         public SettingPage()
         {
             InitializeComponent();
