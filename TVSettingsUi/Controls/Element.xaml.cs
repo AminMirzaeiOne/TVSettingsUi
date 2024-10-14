@@ -29,6 +29,9 @@ namespace TVSettingsUi.Controls
             remove { RemoveHandler(ElementClickEvent, value); }
         }
 
+        void Button_Click(object sender, RoutedEventArgs e) => RaiseEvent(new RoutedEventArgs(ElementClickEvent));
+
+
         public Element()
         {
             InitializeComponent();
