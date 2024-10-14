@@ -21,6 +21,8 @@ namespace TVSettingsUi.Controls
     public partial class StorageDesc : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(StorageDesc));
+        public static readonly DependencyProperty ColorProperty = DependencyProperty.Register("Color", typeof(Brush), typeof(StorageDesc));
+
 
         public StorageDesc()
         {
