@@ -6,6 +6,8 @@
              xmlns:local="clr-namespace:TVSettingsUi.Controls"
              Name="storageDesc">
     <StackPanel Orientation="Horizontal" Margin="0 10">
-            
+        
+        <Border CornerRadius="5" Background="{Binding ElementName=storageDesc,Path=Color}" Width="20" Height="20" Margin="0 0 10 0"/>
+
     </StackPanel>
 </UserControl>
