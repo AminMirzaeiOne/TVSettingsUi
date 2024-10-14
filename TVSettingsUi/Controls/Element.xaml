@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:TVSettingsUi.Controls"
              mc:Ignorable="d" 
              Name="element">
-    <Grid>
+    <Button>
             
-    </Grid>
+    </Button>
 </UserControl>
