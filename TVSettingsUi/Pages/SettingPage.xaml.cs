@@ -54,5 +54,11 @@ namespace TVSettingsUi.Pages
             window.ExecutePage(AppPages.Storage);
         }
 
+        private void About_ElementClick(object sender, RoutedEventArgs e)
+        {
+            LoadWindow();
+            window.ExecutePage(AppPages.About);
+        }
+
     }
 }
