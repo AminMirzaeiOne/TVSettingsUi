@@ -23,5 +23,17 @@
             </Style>
         </Border.Style>
 
+        <Grid>
+            <TextBlock Text="{Binding ElementName=timeSetting,Path=Title}" Foreground="#FCF9F4" FontSize="24" 
+               FontWeight="Light" VerticalAlignment="Center" Margin="10 0 0 2"/>
+
+            <CheckBox Style="{StaticResource toggleButton}" IsChecked="{Binding ElementName=timeSetting,Path=IsChecked}"
+              Visibility="{Binding ElementName=timeSetting,Path=HasToggle,Converter={StaticResource BoolToVis}}"/>
+
+            <TextBlock Visibility="{Binding ElementName=timeSetting,Path=HasText,Converter={StaticResource BoolToVis}}" 
+               Text="{Binding ElementName=timeSetting,Path=Text}" HorizontalAlignment="Right" Foreground="#FCF9F4" 
+               FontSize="24" FontWeight="Light" VerticalAlignment="Center" Margin="0 0 10 2"/>
+        </Grid>
+
     </Border>
 </UserControl>
