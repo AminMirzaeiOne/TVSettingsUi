@@ -47,6 +47,13 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
             <!--Page Title-->
             <TextBlock x:Name="titleText" Text="Settings" Style="{StaticResource pageTitle}"/>
 
+            <!--Page Content-->
+            <ContentPresenter x:Name="container" Grid.Row="2">
+                <ContentPresenter.Content>
+                    <page:Setting_Page/>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+
         </Grid>
 
     </Border>
