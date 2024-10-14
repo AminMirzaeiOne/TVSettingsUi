@@ -22,5 +22,9 @@ WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
             </LinearGradientBrush>
         </Border.Background>
 
+        <Grid>
+            
+        </Grid>
+
     </Border>
 </Window>
