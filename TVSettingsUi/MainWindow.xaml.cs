@@ -62,5 +62,12 @@ namespace TVSettingsUi
             }
         }
 
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            container.Content = settingPage;
+            backButton.Visibility = Visibility.Collapsed;
+            titleText.Text = "Settings";
+        }
+
     }
 }
